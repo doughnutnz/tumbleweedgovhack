@@ -27,9 +27,9 @@ public class PlaygroundMarker implements ClusterItem {
 
     public BitmapDescriptor getIcon() {
         if(mItems >= threshold2) {
-            return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_30_pct);
+            return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_40_pct);
         } else if(mItems < threshold2 &&  mItems >= threshold1) {
-            return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_25_pct);
+            return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_30_pct);
         } else {
             return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_20_pct);
         }
