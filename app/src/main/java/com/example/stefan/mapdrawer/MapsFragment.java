@@ -103,7 +103,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 String address = ((JSONObject)parksJson.get(i)).getString("address");
                 // String geocode_address = ((JSONObject)parksJson.get(i)).getString("geocode_address");
 
-                LatLng location = new LatLng(lon, lat);
+                LatLng location = new LatLng(lat, lon);
                 MarkerOptions marker = new MarkerOptions()
                         .position(location)
                         .title(name)
