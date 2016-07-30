@@ -8,6 +8,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -136,7 +137,6 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
             //http://stackoverflow.com/questions/30958224/android-maps-utils-clustering-show-infowindow
             mMap.setOnInfoWindowClickListener(mClusterManager);
             mClusterManager.setOnClusterItemInfoWindowClickListener(this);
-            //mMap.setOnClickListener(mClusterManager);
             mClusterManager.setOnClusterClickListener(this);
 
 
@@ -242,8 +242,9 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
 
     @Override
     public boolean onClusterClick(Cluster<PlaygroundMarker> cl) {
+        Log.i("##################", "########################");
         Toast.makeText(getActivity(), "More playgrounds here!", Toast.LENGTH_LONG).show();
-        return true;
+        return false;
     }
 
 }

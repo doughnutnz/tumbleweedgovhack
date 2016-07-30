@@ -66,6 +66,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
             mRecord = findRecordById(recordId);
             String installationId = "";
             String playgroundName = "";
+            String lat = "";
+            String lon = "";
 
             try {
                 toolbar.setTitle(mRecord.getString("name"));
@@ -73,7 +75,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
 
                 String details = "<h2>Address</h2>" +
                         "<p>" + mRecord.getString("address") + "</p>" +
-                        "<p>" + mRecord.getString("geocode_address") + "</p>" +
+                        "<h2>Equipement</h2>" +
+                        "<p>" + mRecord.getString("equipment") + "</p>" +
                         "<h2>Facilities</h2>" +
                         "<p>" + mRecord.getString("facilities") + "</p>" +
                         "<h2>About</h2>" +
@@ -82,6 +85,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
 
                 installationId = Installation.id(getApplicationContext());
                 playgroundName = mRecord.getString("name");
+                lat = mRecord.getString("lat");
+                lon = mRecord.getString("long");
 
 
             } catch (JSONException e) {
@@ -96,6 +101,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
                                         .add("installation_id", installationId)
                                         .add("record_id", recordId)
                                         .add("playground_name", playgroundName)
+                                        .add("latitude", lat)
+                                        .add("longitude", lon)
                                         .build();
             Request request = new Request.Builder()
                                         .url(url)

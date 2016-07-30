@@ -26,7 +26,18 @@ class PlaygroundIconRender extends DefaultClusterRenderer<PlaygroundMarker> {
         markerOptions.title(item.getTitle());
         super.onBeforeClusterItemRendered(item, markerOptions);
     }
+
 /*
+
+    @Override
+    protected void onBeforeClusterRendered(Cluster<PlaygroundMarker> cluster, MarkerOptions markerOptions) {
+        Collection<PlaygroundMarker> clust = cluster.getItems();
+        PlaygroundMarker item = clust.iterator().next();
+        markerOptions.snippet(cluster.getSize() + " playgrounds here !");
+        super.onBeforeClusterItemRendered(item, markerOptions);
+    }
+
+
     @Override
     protected void onBeforeClusterRendered(Cluster<PlaygroundMarker> cluster, MarkerOptions markerOptions) {
         // Draw multiple playground
@@ -43,8 +54,8 @@ class PlaygroundIconRender extends DefaultClusterRenderer<PlaygroundMarker> {
         // Always render clusters.
         return cluster.getSize() > 1;
     }
-*/
 
+*/
 
 }
 
