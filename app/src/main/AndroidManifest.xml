@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.stefan.mapdrawer">
+    package="nz.co.govhack.tumbleweed.mapdrawer">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MapDrawerActivity"
+            android:name="nz.co.govhack.tumbleweed.mapdrawer.MapDrawerActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -44,7 +44,7 @@
         </activity
         -->
         <activity
-            android:name=".ViewRecordActivity"
+            android:name="nz.co.govhack.tumbleweed.mapdrawer.ViewRecordActivity"
             android:label="@string/title_activity_view_record"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.stefan.mapdrawer"
+        applicationId "nz.co.govhack.tumbleweed.mapdrawer"
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
@@ -27,5 +27,5 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.squareup.okhttp3:okhttp:3.0.1'
-    compile 'com.google.maps.android:android-maps-utils:0.2+'
+    compile 'com.google.maps.android:android-maps-utils:0.3+'
 }

@@ -1,4 +1,4 @@
-package com.example.stefan.mapdrawer;
+package nz.co.govhack.tumbleweed.mapdrawer;
 
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -8,9 +8,11 @@ import com.google.maps.android.clustering.ClusterItem;
 
 public class PlaygroundMarker implements ClusterItem {
     private final LatLng mPosition;
+    private String mName;
 
-    public PlaygroundMarker(double lat, double lng) {
+    public PlaygroundMarker(double lat, double lng, String name) {
         mPosition = new LatLng(lat, lng);
+        mName = name;
     }
 
     @Override
@@ -20,7 +22,7 @@ public class PlaygroundMarker implements ClusterItem {
 
 
     public BitmapDescriptor getIcon() {
-        return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground);
+        return BitmapDescriptorFactory.fromResource(R.drawable.icon_playground_little);
     }
 
     public String getSnippet() {
@@ -28,7 +30,7 @@ public class PlaygroundMarker implements ClusterItem {
     }
 
     public String getTitle() {
-        return "Playground";
+        return mName;
     }
 
 }
