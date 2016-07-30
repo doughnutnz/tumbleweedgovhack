@@ -78,7 +78,10 @@
     "address": "R 1 Allenby Avenue, North Shore",
     "nb_items": 4,
     "equipment": "<ul><li>Overhead Event</li> <li>Seesaw-Spring</li> <li>Slide</li> <li>Swing</li></ul>",
-    "id": 12941
+    "id": 12941,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Amanda Reserve",
@@ -147,7 +150,10 @@
     "address": "58R Grande Vue Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular (Large)</li> <li>Swing</li></ul>",
-    "id": 20570
+    "id": 20570,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Annison Green",
@@ -192,7 +198,10 @@
     "address": "  Ariki Drive, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Swing</li></ul>",
-    "id": 22354
+    "id": 22354,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Arline Schutz Park (Halver Park)",
@@ -201,7 +210,10 @@
     "address": "39 Halver Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular (Small)</li> <li>Swing</li></ul>",
-    "id": 20812
+    "id": 20812,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Arthur Faulkner Reserve",
@@ -222,7 +234,10 @@
     "address": "43 Parau Street, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module</li> <li>Swing</li></ul>",
-    "id": 20865
+    "id": 20865,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Ascot Park",
@@ -267,7 +282,10 @@
     "address": "15 Hamilton Road, Waiuku",
     "nb_items": 1,
     "equipment": "<ul><li>Seesaw</li></ul>",
-    "id": 10568
+    "id": 10568,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Babich Reserve",
@@ -276,7 +294,10 @@
     "address": "98 Babich Road North, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Modern Modular</li> <li>Modern Modular</li> <li>Spica</li> <li>Spiral Net Climber</li> <li>Springy Digger</li> <li>Springy Dolphins</li> <li>Springy Ladybird</li> <li>Supernova</li> <li>Swing Double</li> <li>Swing Double</li></ul>",
-    "id": 23367
+    "id": 23367,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Baddeleys Beach Reserve",
@@ -345,7 +366,10 @@
     "address": "7 Crestview Place, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Module-Small</li> <li>Spinner bowl</li> <li>Spinner</li> <li>Swing</li> <li>Swing hammock large rope</li> <li>Swing-Hammock-small black</li></ul>",
-    "id": 22074
+    "id": 22074,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bayswater Park",
@@ -390,7 +414,10 @@
     "address": "15A Bellgrove Place, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Roundabout</li> <li>Single Slide</li> <li>Swing Double</li></ul>",
-    "id": 21636
+    "id": 21636,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Belmont Rose Gardens",
@@ -399,7 +426,10 @@
     "address": "152 Lake Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 23311
+    "id": 23311,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bert Henham Park",
@@ -420,7 +450,10 @@
     "address": "50R Berwyn Avenue, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular (Large)</li> <li>Swing</li></ul>",
-    "id": 21476
+    "id": 21476,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bill Moir Reserve",
@@ -441,7 +474,10 @@
     "address": "86 Queen Street, Pukekohe",
     "nb_items": 7,
     "equipment": "<ul><li>Logs</li> <li>Modern Modular (Large)</li> <li>Rocktopus</li> <li>Roundabout - Sit On</li> <li>Springy Animal</li> <li>SKAT</li> <li>Rail</li> <li>Rail</li></ul>",
-    "id": 10531
+    "id": 10531,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Blockhouse Bay Beach Reserve",
@@ -462,7 +498,10 @@
     "address": "31 Terry Street, Auckland",
     "nb_items": 19,
     "equipment": "<ul><li>Fitness Station Balance Beam</li> <li>Fitness Station-Chin-Up Bars</li> <li>Fitness Station-Climbing Wall</li> <li>Fitness Station-Dip Crunch & Cycle</li> <li>Fitness Station-Leg Press & Sit-up Bench</li> <li>Fitness Station-Leg Stretch</li> <li>Fitness Station-Monkey Bars</li> <li>Fitness Station-Muscle Blaster</li> <li>Fitness Station-Parallel Bars</li> <li>Fitness Station-Pull Down Ex & Rec Cycle</li> <li>Fitness Station-Push-Up Bars</li> <li>Fitness Station-Steps</li> <li>Fitness Station-Stretch & Air Walker</li> <li>Fitness Station-Vertical Ladder</li> <li>Junior Module</li> <li>Pommel Swing</li> <li>Senior Module</li> <li>Swing Double</li> <li>Swing Double</li> <li>Swing Quad</li></ul>",
-    "id": 10368
+    "id": 10368,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bluebird Reserve",
@@ -495,7 +534,10 @@
     "address": "14 Styak Street, Auckland",
     "nb_items": 9,
     "equipment": "<ul><li>Buzzy bee rocker</li> <li>Car springy rocker</li> <li>Climbing module</li> <li>Dinosour rocker</li> <li>Hags spiker</li> <li>Module</li> <li>Overhead spinner</li> <li>Stepping stone logs</li> <li>Swings</li></ul>",
-    "id": 21190
+    "id": 21190,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Boggust Park",
@@ -516,7 +558,10 @@
     "address": "43 Bond Crescent, Forrest Hill",
     "nb_items": 5,
     "equipment": "<ul><li>Module-Medium-Jnr</li> <li>Module medium (senior)</li> <li>Seesaw spinner</li> <li>Seesaw-Spring</li> <li>Swing</li></ul>",
-    "id": 11064
+    "id": 11064,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bonnie Brae Reserve",
@@ -537,7 +582,10 @@
     "address": "903 Kaipara Flats Road, Kaipara Flats",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 11222
+    "id": 11222,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Braemar Reserve",
@@ -582,7 +630,10 @@
     "address": "15 Brandon Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium-With Track Ride</li> <li>Swing</li></ul>",
-    "id": 20496
+    "id": 20496,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bridge Avenue Reserve",
@@ -627,7 +678,10 @@
     "address": "3 Manly Esplanade, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Module-Large</li> <li>Spinner</li> <li>Swing snr</li> <li>Swing basket</li> <li>Walkway Wobbly Walk Deck</li></ul>",
-    "id": 11092
+    "id": 11092,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bruce Mclaren Memorial Park",
@@ -720,7 +774,10 @@
     "address": "52 Buckley Road, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Jungle Cube</li> <li>Junior Rocker</li> <li>Module</li> <li>Roundabout spinner</li> <li>Swings</li></ul>",
-    "id": 10244
+    "id": 10244,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Burswood Park",
@@ -741,7 +798,10 @@
     "address": "99R Finlayson Avenue, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Fitness device</li> <li>Arms&abs</li> <li>Arms&abs</li> <li>Legs&abs</li> <li>Legs&arms</li></ul>",
-    "id": 21661
+    "id": 21661,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Bushlands Park",
@@ -750,7 +810,10 @@
     "address": "34 Bushlands Park Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 22250
+    "id": 22250,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Cadness Loop",
@@ -915,7 +978,10 @@
     "address": "14 Kitchener Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Balancing bars</li> <li>Modern modular (large)</li> <li>Swing unit</li></ul>",
-    "id": 10563
+    "id": 10563,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Centorian Reserve",
@@ -1008,7 +1074,10 @@
     "address": "2R Clare Place, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Basket swing set</li> <li>Climbing poles</li> <li>Double slide</li> <li>Wobbly bridge</li></ul>",
-    "id": 23186
+    "id": 23186,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Clarence Reserve",
@@ -1029,7 +1098,10 @@
     "address": "80 Hector Sanderson Road, Great Barrier Island",
     "nb_items": 6,
     "equipment": "<ul><li>Climbing module</li> <li>Module</li> <li>Module</li> <li>Slide</li> <li>Springy animal</li> <li>Swing</li> <li>Xylophone</li></ul>",
-    "id": 10425
+    "id": 10425,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Clarks Beach Boat Ramp",
@@ -1038,7 +1110,10 @@
     "address": "  Torkar Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular (Small)</li> <li>Swing</li></ul>",
-    "id": 10529
+    "id": 10529,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Clavoy Park",
@@ -1059,7 +1134,10 @@
     "address": "17R Palmers Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Kompan Saturn (Rotating See Saw)</li></ul>",
-    "id": 10717
+    "id": 10717,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Clevedon Scenic Reserve",
@@ -1068,7 +1146,10 @@
     "address": "30R Thorps Quarry Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Rope Bridges</li> <li>Balancing Beams</li> <li>Monkey Bars</li> <li>Swing Rope</li></ul>",
-    "id": 10779
+    "id": 10779,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Cliff Face Park",
@@ -1077,7 +1158,10 @@
     "address": "25 Guard Crescent, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Rope swing</li></ul>",
-    "id": 21194
+    "id": 21194,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Clydesdale Park",
@@ -1098,7 +1182,10 @@
     "address": "  Central Park Drive, Waitakere",
     "nb_items": 1,
     "equipment": "<ul><li>Fitness Station-Step & Reach & Chin Up</li></ul>",
-    "id": 11426
+    "id": 11426,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Colin Lawrie Fields",
@@ -1155,7 +1242,10 @@
     "address": "17 Cooper Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Swing mega</li></ul>",
-    "id": 22405
+    "id": 22405,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Copley Reserve",
@@ -1176,7 +1266,10 @@
     "address": "130-136 Henderson Valley Road, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Dog Agility Station-AFrame</li> <li>Dog Agility Station-Bridge</li> <li>Dog Agility Station-Hurdle</li> <li>Dog Agility Station-Hurdle</li> <li>Dog Agility Station-Jump Through Hurdle</li> <li>Dog Agility Station-Tunnel</li> <li>Dog Agility Station-Tunnel</li> <li>Dog Agility Station-Weave Pole</li></ul>",
-    "id": 11395
+    "id": 11395,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Corran Reserve",
@@ -1197,7 +1290,10 @@
     "address": "3 Costley Street, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module</li> <li>Seesaw</li> <li>Spinner cup</li> <li>Swing</li></ul>",
-    "id": 21011
+    "id": 21011,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Coxs Bay Reserve",
@@ -1206,7 +1302,10 @@
     "address": "44 West End Road, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Dome Climber</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Module - large</li> <li>Module - small</li> <li>Monkey bars</li> <li>Swings</li></ul>",
-    "id": 10265
+    "id": 10265,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Coyle Park",
@@ -1263,7 +1362,10 @@
     "address": "5R Cross Street, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Spinner mice</li> <li>Twister ring</li> <li>Vertical ladder</li></ul>",
-    "id": 20294
+    "id": 20294,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Crossfield Reserve",
@@ -1332,7 +1434,10 @@
     "address": "63 Charlotte Street, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Module-Large</li> <li>Seesaw-Spring</li> <li>Spinner pole</li> <li>Spinner</li> <li>Swing</li></ul>",
-    "id": 22406
+    "id": 22406,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Da Vinci Park",
@@ -1401,7 +1506,10 @@
     "address": "6A Delphine Close, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Cube</li> <li>Swing</li></ul>",
-    "id": 20877
+    "id": 20877,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Derrimore Park",
@@ -1470,7 +1578,10 @@
     "address": "27 Durbin Court, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Monkey Bars</li> <li>Slide</li> <li>Swing</li></ul>",
-    "id": 22211
+    "id": 22211,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Durham Green",
@@ -1515,7 +1626,10 @@
     "address": "9 Edenvale Park Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module</li> <li>Module - Green Slide</li> <li>Stepping logs</li> <li>Swing</li> <li>Swing</li></ul>",
-    "id": 21145
+    "id": 21145,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Edith Hopper Park",
@@ -1536,7 +1650,10 @@
     "address": "182 Main Highway, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Climbing wall</li> <li>Seesaw</li> <li>Slide</li> <li>Swing</li></ul>",
-    "id": 10056
+    "id": 10056,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Elliott Reserve",
@@ -1605,7 +1722,10 @@
     "address": "3 Ngauruhoe Street, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Module</li> <li>Seesaw</li> <li>Swings</li></ul>",
-    "id": 21153
+    "id": 21153,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Everard Reserve",
@@ -1626,7 +1746,10 @@
     "address": "4 May Way, Omaha",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 22264
+    "id": 22264,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Exeter Reserve",
@@ -1743,7 +1866,10 @@
     "address": "4 Candlestick Place, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module-Small</li> <li>Module-Small-Navigator</li> <li>Springy</li> <li>Springy</li> <li>Swing snr</li></ul>",
-    "id": 22229
+    "id": 22229,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Fernwood Grove",
@@ -1764,7 +1890,10 @@
     "address": "  Ferry Road, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Climber</li> <li>Seesaw</li> <li>Spinner pole</li> <li>Spinner</li> <li>Swing keyhole Jnr</li> <li>Swing Snr</li></ul>",
-    "id": 22604
+    "id": 22604,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Fields Reserve",
@@ -1785,7 +1914,10 @@
     "address": "416A Panama Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Artificial turf mound</li> <li>Lunar Spinner</li> <li>Module</li> <li>Swings</li></ul>",
-    "id": 21523
+    "id": 21523,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Flaunty Reserve",
@@ -1866,7 +1998,10 @@
     "address": "52 Hepburn Street, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Small module</li></ul>",
-    "id": 10274
+    "id": 10274,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Gallony Park",
@@ -1911,7 +2046,10 @@
     "address": "108 Gladstone Road, Auckland",
     "nb_items": 9,
     "equipment": "<ul><li>Horn</li> <li>Large module</li> <li>Overhead climber</li> <li>Slide tower</li> <li>Small module</li> <li>Springy car</li> <li>Springy seesaw</li> <li>Springy seesaw</li> <li>Swing</li> <li>Swing</li> <li>Track glide</li></ul>",
-    "id": 10037
+    "id": 10037,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Glen Bay Close Reserve",
@@ -1920,7 +2058,10 @@
     "address": "114 Hugh Green Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Spacenet</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 22286
+    "id": 22286,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Glen Norman Reserve",
@@ -1941,7 +2082,10 @@
     "address": "  Beach Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Modern modular</li></ul>",
-    "id": 20660
+    "id": 20660,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Glendene Reserve",
@@ -1962,7 +2106,10 @@
     "address": "32 Glover Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Large module</li> <li>Swing T bar</li></ul>",
-    "id": 10218
+    "id": 10218,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Gooseberry Flat",
@@ -2007,7 +2154,10 @@
     "address": "1 Greenslade Crescent, North Shore",
     "nb_items": 1,
     "equipment": "<ul><li>GymGuru</li> <li>GymGuru</li> <li>GymGuru</li> <li>GymGuru</li> <li>GymGuru</li></ul>",
-    "id": 20078
+    "id": 20078,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Greville Reserve",
@@ -2016,7 +2166,10 @@
     "address": "253 Forest Hill Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Spinner</li></ul>",
-    "id": 20054
+    "id": 20054,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Grey Lynn Park",
@@ -2061,7 +2214,10 @@
     "address": "  Franklin Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Chin up bar</li> <li>Tricep dip bars</li> <li>Climbing Frame</li> <li>Climbing Frame</li> <li>Toss Up</li></ul>",
-    "id": 20776
+    "id": 20776,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Gulf Harbour Recreation Reserve",
@@ -2070,7 +2226,10 @@
     "address": "R 40 Gulf Harbour Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 20468
+    "id": 20468,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Gus Nola Park",
@@ -2115,7 +2274,10 @@
     "address": "38R Harania Avenue, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Bounce buggy</li> <li>Climbing frame</li> <li>Swing unit</li> <li>Twirler spinner</li> <li>Wave slide</li></ul>",
-    "id": 20760
+    "id": 20760,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Harbutt Reserve",
@@ -2208,7 +2370,10 @@
     "address": "186 Parnell Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Swing</li></ul>",
-    "id": 10012
+    "id": 10012,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Heath Reserve",
@@ -2229,7 +2394,10 @@
     "address": "49 Commercial Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing snr</li> <li>Swing T bar Jnr</li></ul>",
-    "id": 22398
+    "id": 22398,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Henderson Park - Henderson",
@@ -2238,7 +2406,10 @@
     "address": "41 Wilsher Crescent, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li></ul>",
-    "id": 11393
+    "id": 11393,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Henderson Valley Park",
@@ -2295,7 +2466,10 @@
     "address": "1625-162 Great North Road, Auckland Central",
     "nb_items": 6,
     "equipment": "<ul><li>Climbing net</li> <li>Cup spinner</li> <li>Flying Fox</li> <li>Junior Swing</li> <li>Slide</li> <li>Slide</li> <li>Supernova</li></ul>",
-    "id": 10048
+    "id": 10048,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Highgrove Reserve",
@@ -2352,7 +2526,10 @@
     "address": "43 Court Crescent, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Small module</li> <li>Spica</li> <li>Springy animal</li> <li>Swing T bar</li></ul>",
-    "id": 21322
+    "id": 21322,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Hobsonville Point Park",
@@ -2361,7 +2538,10 @@
     "address": "  Buckley Avenue, Auckland",
     "nb_items": 14,
     "equipment": "<ul><li>Balance beam</li> <li>Bridge</li> <li>Climber</li> <li>Module-Small-Jnr</li> <li>Sculpture</li> <li>Sculpture-5 seeds</li> <li>Sculpture-Climbing Pods</li> <li>Sculpture-Kowhai seed</li> <li>Sculpture</li> <li>Sculpture</li> <li>Sculpture-Nikau seed</li> <li>Sculpture-Pigeonwood seed</li> <li>Slide</li> <li>Spinner bowl</li> <li>Spinner bowl</li> <li>Stepping logs</li> <li>Swing</li></ul>",
-    "id": 21368
+    "id": 21368,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Hobsonville War Memorial",
@@ -2442,7 +2622,10 @@
     "address": "24 Oraha Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module</li></ul>",
-    "id": 22477
+    "id": 22477,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Hudsons Beach Recreation Reserve",
@@ -2451,7 +2634,10 @@
     "address": "  Hudson Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Large modular</li> <li>Swing unit</li></ul>",
-    "id": 20346
+    "id": 20346,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Huia Domain",
@@ -2520,7 +2706,10 @@
     "address": "  Harbour View Road, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Double Slide</li> <li>Modern Modular</li> <li>Modern Modular</li> <li>Spica</li> <li>Springy Animal</li> <li>Swing Double</li> <li>Wooden Jetty</li></ul>",
-    "id": 11444
+    "id": 11444,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Jamie Hansen Park",
@@ -2553,7 +2742,10 @@
     "address": "1 Park Gardens, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module</li> <li>Seesaw</li> <li>Slide</li> <li>Swings</li></ul>",
-    "id": 10315
+    "id": 10315,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "John Moore Reserve",
@@ -2718,7 +2910,10 @@
     "address": "9 Kelvin Crescent, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular</li> <li>Swing Double</li></ul>",
-    "id": 20509
+    "id": 20509,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Kemp Park",
@@ -2847,7 +3042,10 @@
     "address": "39 Tippett Street, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Chin ups</li> <li>Monkey bars</li> <li>Overhead Rings</li> <li>Overhead spinner</li> <li>Parallel Bars</li></ul>",
-    "id": 20708
+    "id": 20708,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Kuaka Park",
@@ -2916,7 +3114,10 @@
     "address": "57 Jutland Road, Hauraki",
     "nb_items": 14,
     "equipment": "<ul><li>Animal sculpture-duck</li> <li>Animal sculpture-snail</li> <li>Animal sculpture-snake</li> <li>Animal sculpture-tortise</li> <li>Balance Beam on springs</li> <li>Basket Swing</li> <li>Climbing handholds</li> <li>Frog sculpture</li> <li>sandpit</li> <li>Slide</li> <li>Spinner</li> <li>Swing</li> <li>Trampoline inground</li> <li>Trampoline inground</li> <li>Xylophone</li></ul>",
-    "id": 24041
+    "id": 24041,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Lancelot Reserve",
@@ -2925,7 +3126,10 @@
     "address": "16 Lancelot Place, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Large</li> <li>Swing</li></ul>",
-    "id": 22294
+    "id": 22294,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Lansdowne Reserve",
@@ -2982,7 +3186,10 @@
     "address": "20 Findlay Street, Auckland Central",
     "nb_items": 2,
     "equipment": "<ul><li>Module - small slide</li> <li>Play hut</li></ul>",
-    "id": 10022
+    "id": 10022,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Leiden Reserve",
@@ -3075,7 +3282,10 @@
     "address": "20 Council Terrace, North Shore",
     "nb_items": 6,
     "equipment": "<ul><li>Airwalk Crunch</li> <li>Leg press & situp</li> <li>Step ups</li> <li>Step ups</li> <li>Twister Arm Press</li> <li>Module-Large</li> <li>Swing</li></ul>",
-    "id": 11107
+    "id": 11107,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Locket Reserve",
@@ -3180,7 +3390,10 @@
     "address": "50 Lysander Crescent, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Spinner bowl</li> <li>Springy animal ladybird</li> <li>Swing-Hammock-Small</li></ul>",
-    "id": 22095
+    "id": 22095,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Macadamia Park (Melia Grove Reserve)",
@@ -3189,7 +3402,10 @@
     "address": "15 Melia Grove, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Cresent spinner</li> <li>Slide</li> <li>Small modular</li> <li>Swing set</li></ul>",
-    "id": 22936
+    "id": 22936,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Macleans Park",
@@ -3198,7 +3414,10 @@
     "address": "67R The Esplanade, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Flying Fox</li></ul>",
-    "id": 22739
+    "id": 22739,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Madills Farm Recreation Reserve",
@@ -3207,7 +3426,10 @@
     "address": "6 Baddeley Avenue, Auckland Central",
     "nb_items": 13,
     "equipment": "<ul><li>Basket swing</li> <li>Climbing net</li> <li>Embankment slide</li> <li>Embankment slide</li> <li>Four bay swing</li> <li>Gyroscope spinner</li> <li>In-ground trampolines</li> <li>Play module</li> <li>Pre-school play module</li> <li>Roundabout</li> <li>Spring rider seesaw</li> <li>Stepping logs</li> <li>Timber tower tube slides</li> <li>Tree hut</li></ul>",
-    "id": 10424
+    "id": 10424,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mairangi Bay Beach Reserve",
@@ -3216,7 +3438,10 @@
     "address": "16 Brighton Terrace, North Shore",
     "nb_items": 1,
     "equipment": "<ul><li>Swing</li></ul>",
-    "id": 11043
+    "id": 11043,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mairangi Bay Village Green",
@@ -3237,7 +3462,10 @@
     "address": "  Major Henry Greens, Silverdale",
     "nb_items": 5,
     "equipment": "<ul><li>Module-Medium</li> <li>Seesaw-Spring</li> <li>Springy digger</li> <li>Springy ladybird</li> <li>Swing</li></ul>",
-    "id": 23654
+    "id": 23654,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Malcolm Hahn Memorial Reserve",
@@ -3258,7 +3486,10 @@
     "address": "17R Domain Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Balancing Bar</li> <li>Modern Modular (Small)</li> <li>Spinning Cup</li> <li>Swing</li> <li>Swing</li></ul>",
-    "id": 22940
+    "id": 22940,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mangere Mountain Education Centre",
@@ -3267,7 +3498,10 @@
     "address": "98 Coronation Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Plastic tunnel in barn</li> <li>Plastic tunnel in childrens garden</li> <li>Plastic tunnel in childrens garden</li></ul>",
-    "id": 10699
+    "id": 10699,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mangere Recreation Centre",
@@ -3276,7 +3510,10 @@
     "address": "66R Mascot Avenue, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Fitness device</li> <li>Fitness device</li> <li>Fitness device</li></ul>",
-    "id": 21750
+    "id": 21750,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Manly Park",
@@ -3465,7 +3702,10 @@
     "address": "287 Martins Bay Road, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Abacus</li> <li>module small</li> <li>Module-Medium</li> <li>Module - Medium</li> <li>Noughts & Crosses</li> <li>Seesaw-Spring</li> <li>Springy whale</li> <li>Swing</li></ul>",
-    "id": 11272
+    "id": 11272,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mary Wilson Reserve",
@@ -3498,7 +3738,10 @@
     "address": "50 Belgium Street, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Climbing Frame</li> <li>Climbing Frame</li> <li>Modern Modular (Small)</li> <li>Rolling Log</li> <li>Scale Swing</li> <li>Swing</li> <li>Track Glide</li> <li>Timber ramp</li> <li>Timber/Aluminium ramp</li></ul>",
-    "id": 10535
+    "id": 10535,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Massey Reserve",
@@ -3519,7 +3762,10 @@
     "address": "1331 Leigh Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>pendulum swing</li> <li>Climbing module</li> <li>slide & platform</li></ul>",
-    "id": 22240
+    "id": 22240,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Matheson Bay Reserve",
@@ -3552,7 +3798,10 @@
     "address": "38 Mackay Drive, Greenhithe",
     "nb_items": 3,
     "equipment": "<ul><li>Kompan Apex</li> <li>Kompan multi spinner</li> <li>Swing</li></ul>",
-    "id": 24314
+    "id": 24314,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Maungawhau Domain (Mt Eden)",
@@ -3561,7 +3810,10 @@
     "address": "250 Mount Eden Road, Auckland Central",
     "nb_items": 8,
     "equipment": "<ul><li>Flying Fox</li> <li>Flying Fox</li> <li>Hip Hop seesaw</li> <li>Junior Module</li> <li>Roundabout</li> <li>Spacenet</li> <li>Swings</li> <li>Train Track</li> <li>Tree House Senior Module</li></ul>",
-    "id": 10179
+    "id": 10179,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "May Road War Memorial Park",
@@ -3570,7 +3822,10 @@
     "address": "13 May Road, Auckland",
     "nb_items": 20,
     "equipment": "<ul><li>Fitness Station - Hurdle</li> <li>Fitness Station - Hurdle</li> <li>Fitness Station - Rung Ladder</li> <li>Fitness Station Balance Log</li> <li>Fitness Station Balance Log</li> <li>Fitness Station</li> <li>Fitness Station Cycle Strider</li> <li>Fitness Station Cycle Strider</li> <li>Fitness Station Horse Rider</li> <li>Fitness Station Jump Touch</li> <li>Fitness Station Monkey Bars</li> <li>Fitness Station Sit up Bench</li> <li>Fitness Station Step and Reach</li> <li>Fitness Station Stepping Poles</li> <li>Luna spinner</li> <li>Module</li> <li>Module fitness</li> <li>Parkour Unit</li> <li>Spica twirl about</li> <li>Spica twirl about</li> <li>Springy rocker</li> <li>Springy rocker</li> <li>Stepping logs</li> <li>Stepping platform - webbed</li> <li>Swing</li> <li>Swing</li></ul>",
-    "id": 10034
+    "id": 10034,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Maybury Reserve",
@@ -3627,7 +3882,10 @@
     "address": "196 McLeod Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Modern Modular</li> <li>Playground Track</li> <li>Swing Double</li></ul>",
-    "id": 11488
+    "id": 11488,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mcshane Street Reserve",
@@ -3636,7 +3894,10 @@
     "address": "31 Mcshane Street, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Climbing frame</li> <li>Modern modular (large)</li> <li>Swing unit</li></ul>",
-    "id": 22932
+    "id": 22932,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Meadowland Park",
@@ -3669,7 +3930,10 @@
     "address": "73 Sandhills Road, Great Barrier Island",
     "nb_items": 5,
     "equipment": "<ul><li>Hip Hop seesaw</li> <li>Module</li> <li>Slide</li> <li>Stepping logs/balance beam</li> <li>Swings</li></ul>",
-    "id": 10314
+    "id": 10314,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Melia Reserve",
@@ -3702,7 +3966,10 @@
     "address": "249 Gillies Avenue, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module</li> <li>Seesaw</li> <li>Seesaw</li> <li>Senior overhead climber</li> <li>Swing</li> <li>Swing</li></ul>",
-    "id": 10415
+    "id": 10415,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Mervan Street Reserve",
@@ -3759,7 +4026,10 @@
     "address": "  Botanical Drive, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>Module-Medium</li> <li>Seesaw-Spring</li> <li>Seesaw</li> <li>Spinner</li> <li>Swing snr</li> <li>Swing T bar Jnr</li> <li>Seat</li></ul>",
-    "id": 22668
+    "id": 22668,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Miranda Reserve",
@@ -3888,7 +4158,10 @@
     "address": "271 Shoal Bay Road, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Cup spinner</li> <li>Cup spinner</li> <li>Cup spinner</li> <li>Module</li> <li>Module - large</li> <li>springy animal</li> <li>Springy animal</li></ul>",
-    "id": 20672
+    "id": 20672,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Murillo Reserve",
@@ -3909,7 +4182,10 @@
     "address": "341 Motutara Road, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>Module-Medium-Jnr</li> <li>Module medium (senior)</li> <li>Overhead</li> <li>Seesaw-Spring</li> <li>Slide</li> <li>Springy whale</li> <li>Springy whale</li> <li>Swing</li></ul>",
-    "id": 22471
+    "id": 22471,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Murphy Park",
@@ -3954,7 +4230,10 @@
     "address": "513A Beach Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Swing</li></ul>",
-    "id": 20020
+    "id": 20020,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Myers Park",
@@ -3987,7 +4266,10 @@
     "address": "204 Hinemoa Street, North Shore",
     "nb_items": 4,
     "equipment": "<ul><li>Slide</li> <li>Spinner bowl</li> <li>Springy animal ladybird</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 10941
+    "id": 10941,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Neptune Avenue Reserve",
@@ -4056,7 +4338,10 @@
     "address": "39 Nile Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Module-Small</li> <li>Seesaw-Spring</li> <li>Swing</li></ul>",
-    "id": 21090
+    "id": 21090,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Nixon Park",
@@ -4101,7 +4386,10 @@
     "address": "235 Schnapper Rock Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Gate</li> <li>Gate</li></ul>",
-    "id": 10950
+    "id": 10950,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Northall Park",
@@ -4122,7 +4410,10 @@
     "address": "39 Northboro Road, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Boat Surround - Timber</li> <li>Flying Fox</li> <li>Module-Medium-Sandplay</li> <li>Slide</li> <li>Spacenet</li> <li>Stepping logs to slide</li> <li>Swing basket</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 20311
+    "id": 20311,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Northcote Shops",
@@ -4131,7 +4422,10 @@
     "address": "  Ernie May Street, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>Archway</li> <li>Archway</li> <li>Archway</li> <li>Archway</li> <li>Climber</li> <li>Rider-Whale</li> <li>Seesaw spring octopus</li> <li>Spinner bowl</li> <li>Swing flower Jnr</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 23359
+    "id": 23359,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Northcroft Esplanade Reserve",
@@ -4152,7 +4446,10 @@
     "address": "44 Northwood Avenue, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Module-Small-Jnr</li></ul>",
-    "id": 20207
+    "id": 20207,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "O'Conner Drive Reserve",
@@ -4185,7 +4482,10 @@
     "address": "14 Tamaki Drive, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>Accessible module</li> <li>Commet spinner</li> <li>Flying Fox</li> <li>Large Fort</li> <li>Liberty Swing</li> <li>Roktopus</li> <li>Swing</li></ul>",
-    "id": 21798
+    "id": 21798,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Okura Reserve",
@@ -4194,7 +4494,10 @@
     "address": "81 Okura River Road, North Shore",
     "nb_items": 5,
     "equipment": "<ul><li>Flying Fox</li> <li>Module-Small-Preschool</li> <li>Spinner bowl</li> <li>Swing snr</li> <li>Swing flower Jnr</li></ul>",
-    "id": 11058
+    "id": 11058,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Old Mill Reserve",
@@ -4251,7 +4554,10 @@
     "address": "2 Beach Road, Auckland East",
     "nb_items": 13,
     "equipment": "<ul><li>Balancing rope</li> <li>Fire pit</li> <li>Large modular</li> <li>Monkey bar</li> <li>Monkey bars</li> <li>Seesaw</li> <li>Spiral net climer</li> <li>Step'g pods</li> <li>Stepping logs</li> <li>Swing attach to tree</li> <li>Swing set</li> <li>Swing set</li> <li>Timber waka</li> <li>Tree hut-In bush</li></ul>",
-    "id": 10467
+    "id": 10467,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "One Tree Hill Domain",
@@ -4320,7 +4626,10 @@
     "address": "364 Rangatira Road, Beach Haven",
     "nb_items": 6,
     "equipment": "<ul><li>Balance beam</li> <li>Balance beam</li> <li>Binoculars</li> <li>Marble run</li> <li>Periscope</li> <li>Stepping logs</li> <li>Wobbly bridge</li></ul>",
-    "id": 11115
+    "id": 11115,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Opanuku Reserve",
@@ -4341,7 +4650,10 @@
     "address": "35A Orchard Street, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Seesaw Double</li> <li>Swing Double</li></ul>",
-    "id": 10247
+    "id": 10247,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Orewa Reserve",
@@ -4350,7 +4662,10 @@
     "address": "277 Hibiscus Coast Highway, Orewa",
     "nb_items": 13,
     "equipment": "<ul><li>Module-Climber-Sthn Swing</li> <li>Module-Large-Boat-Nthn Boat</li> <li>Module-Medium-HolidayPk</li> <li>Module-Medium-Skate Slide</li> <li>Module-Medium-Spinner-Middle Snr</li> <li>Module-Medium-Spinner-Middle Snr</li> <li>Module-Small boat bow</li> <li>Module-Small</li> <li>Roctopus-Nthn Boat</li> <li>Spinner Plate</li> <li>Spinner Plate</li> <li>Spinner bowl</li> <li>Spinner</li> <li>Spinner</li> <li>Spinner</li> <li>Swing</li> <li>Swing</li> <li>Swing</li> <li>Swing</li> <li>Turn bars</li></ul>",
-    "id": 11273
+    "id": 11273,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Ostend Domain",
@@ -4395,7 +4710,10 @@
     "address": "56-60 Owairaka Avenue, Auckland Central",
     "nb_items": 8,
     "equipment": "<ul><li>Ball - plastic</li> <li>Ball - plastic</li> <li>Climbing rocks</li> <li>Climbing rocks</li> <li>Flying Fox</li> <li>Module</li> <li>Slide</li> <li>Spica</li> <li>Spica</li> <li>Spica</li> <li>Stepping stones</li> <li>Swing</li> <li>Swing</li></ul>",
-    "id": 10351
+    "id": 10351,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Pallister Reserve",
@@ -4428,7 +4746,10 @@
     "address": "100 Ireland Road, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Balance beams</li> <li>Fitness device</li> <li>Fitness device</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Module</li> <li>Module</li> <li>Ship Module</li> <li>Swing T bar</li></ul>",
-    "id": 10020
+    "id": 10020,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Parakai Recreation Reserve",
@@ -4437,7 +4758,10 @@
     "address": "150 Parkhurst Road, North Shore",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium-Jnr</li> <li>Swing</li></ul>",
-    "id": 11323
+    "id": 11323,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Paremuka Lakeside",
@@ -4470,7 +4794,10 @@
     "address": "80R Parkhaven Drive, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Bay swing set</li> <li>Flying Fox</li> <li>Tube slide</li> <li>Rotating climber</li> <li>Springy seesaw</li> <li>Stepping logs</li> <li>Stepping logs</li> <li>Stepping rock</li> <li>Twirler Spinner</li></ul>",
-    "id": 20263
+    "id": 20263,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Parkwood Reserve",
@@ -4551,7 +4878,10 @@
     "address": "19 Aberley Road, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>Bridge</li> <li>Slide</li> <li>Soccer Play Backstop</li> <li>Spacenet & Slide</li> <li>Swing snr</li> <li>Swing keyhole Jnr</li> <li>Water Play</li></ul>",
-    "id": 21863
+    "id": 21863,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Playtime Park",
@@ -4560,7 +4890,10 @@
     "address": "12 Fynes Avenue, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Digger</li> <li>Digger</li> <li>Dippy Disc</li> <li>Flying Fox</li> <li>Medium Module</li> <li>Spica</li> <li>Spica</li> <li>Swing</li> <li>Water Play</li> <li>Water Play</li> <li>Water Sluice Gate</li></ul>",
-    "id": 23971
+    "id": 23971,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Plymouth Reserve",
@@ -4569,7 +4902,10 @@
     "address": "9 Plymouth Crescent, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Overhead Event</li> <li>Seesaw standup puppet</li> <li>Spinner</li> <li>Springy-4 seater</li> <li>Swing</li></ul>",
-    "id": 20332
+    "id": 20332,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Point England Reserve",
@@ -4626,7 +4962,10 @@
     "address": "2112 Awhitu Road - Waiuku, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Balancing stand</li> <li>Large modular</li> <li>Swing unit</li></ul>",
-    "id": 23809
+    "id": 23809,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Ponderosa Reserve",
@@ -4671,7 +5010,10 @@
     "address": "1 Portsea Place, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 20885
+    "id": 20885,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Possum Bourne Reserve",
@@ -4680,7 +5022,10 @@
     "address": "36 Lough Bourne Drive, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Modular Unit (Small)</li> <li>Roundabout</li> <li>Swing</li></ul>",
-    "id": 22898
+    "id": 22898,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Potters Park",
@@ -4773,7 +5118,10 @@
     "address": "  Domain Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 11208
+    "id": 11208,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Pukekohe Town Centre Grnds",
@@ -4782,7 +5130,10 @@
     "address": "163 King Street, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modular Unit (Large)</li> <li>Roundabout</li></ul>",
-    "id": 23021
+    "id": 23021,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Pukemateko Reserve Omaha South",
@@ -4791,7 +5142,10 @@
     "address": "177 Mangatawhiri Road, Omaha",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Large</li> <li>Swing</li></ul>",
-    "id": 22148
+    "id": 22148,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Puni Recreation Reserve",
@@ -4800,7 +5154,10 @@
     "address": "  Attewell Road, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>RBIN</li></ul>",
-    "id": 10537
+    "id": 10537,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Purata Park",
@@ -4833,7 +5190,10 @@
     "address": "42R Secretariat Place, Auckland",
     "nb_items": 21,
     "equipment": "<ul><li>Frame rail and box</li> <li>Curved hubba</li> <li>Funbox 1</li> <li>Funbox 2</li> <li>Funbox 3</li> <li>Grindbox</li> <li>Hubba 1</li> <li>Hubba 2</li> <li>Hubba 3</li> <li>Hubba 4</li> <li>Hubba 5</li> <li>Hubba 6</li> <li>Kick up 1</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Rail</li> <li>Ramp</li> <li>Ramp</li> <li>Skate bowl</li> <li>Steps</li> <li>Steps</li> <li>Steps</li> <li>Steps</li> <li>Steps</li> <li>Steps</li> <li>Triangle bank</li> <li>Volcano</li> <li>Wall ride</li> <li>Whale tail</li></ul>",
-    "id": 21782
+    "id": 21782,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Ranui Domain",
@@ -4902,7 +5262,10 @@
     "address": "68 Regency Park Drive, Gulf Harbour",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 20539
+    "id": 20539,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Rewi Alley Reserve",
@@ -4935,7 +5298,10 @@
     "address": "1 Reynolds Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Fitness device</li> <li>Fitness device</li> <li>Balancing Bar</li></ul>",
-    "id": 10510
+    "id": 10510,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Rhinevale Close",
@@ -4992,7 +5358,10 @@
     "address": "20-22 Peace Avenue, Auckland Central",
     "nb_items": 4,
     "equipment": "<ul><li>Activity Panel</li> <li>Module</li> <li>Spring perch</li> <li>Springy skateboard</li></ul>",
-    "id": 10271
+    "id": 10271,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Robert Knox Memorial Park",
@@ -5037,7 +5406,10 @@
     "address": "12 Rook Place, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Chest Leg</li> <li>Leg Press</li> <li>Roman Chair</li></ul>",
-    "id": 21964
+    "id": 21964,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Rosario Reserve",
@@ -5058,7 +5430,10 @@
     "address": "2 Jack Hinton Drive, Rosedale",
     "nb_items": 9,
     "equipment": "<ul><li>Roman Chair</li> <li>Slide</li> <li>Soccer Play Backstop</li> <li>Soccer Play Target</li> <li>Soccer slalom</li> <li>Spacenet</li> <li>Springy animal ladybird</li> <li>Swing snr</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 10931
+    "id": 10931,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Rothesay Bay Beach Reserve",
@@ -5067,7 +5442,10 @@
     "address": "60 Rothesay Bay Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Module-Large</li> <li>Swing</li> <li>Swing basket</li></ul>",
-    "id": 20073
+    "id": 20073,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Roulston Park & Pioneer Cottage",
@@ -5076,7 +5454,10 @@
     "address": "9 Stadium Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Swing Unit</li> <li>Modern modular (large)</li></ul>",
-    "id": 21894
+    "id": 21894,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Roundtree Reserve",
@@ -5109,7 +5490,10 @@
     "address": "96 Line Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Junior module</li> <li>Springy animal</li></ul>",
-    "id": 10258
+    "id": 10258,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Ruka Reserve",
@@ -5154,7 +5538,10 @@
     "address": "35A Morningside Drive, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Climbing module</li> <li>Junior Module</li> <li>Seesaw</li> <li>Swings</li></ul>",
-    "id": 21004
+    "id": 21004,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Salisbury Reserve",
@@ -5175,7 +5562,10 @@
     "address": "42 Nelson Street - Pukekohe, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Flying Fox</li></ul>",
-    "id": 22977
+    "id": 22977,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "San Bernadino Reserve",
@@ -5196,7 +5586,10 @@
     "address": "142 Sanders Avenue, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Seesaw-Caterpillar</li> <li>Slide</li> <li>Springy animal pig</li> <li>Swing</li> <li>Swing rope basket</li> <li>Tunnel</li> <li>Tunnel</li></ul>",
-    "id": 21968
+    "id": 21968,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sandringham Reserve",
@@ -5217,7 +5610,10 @@
     "address": "1336 Sandspit Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Large</li> <li>Swing</li></ul>",
-    "id": 22237
+    "id": 22237,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sandspit Reserve - Waiuku",
@@ -5226,7 +5622,10 @@
     "address": "15 Rangiwhea Road, Auckland",
     "nb_items": 8,
     "equipment": "<ul><li>Slide</li> <li>Climbing frame</li> <li>Double slide</li> <li>Pirate ship rope tower</li> <li>Pommel swing</li> <li>Rocking dinghy</li> <li>Rocks&Stepping logs</li> <li>Timber jetty</li></ul>",
-    "id": 21933
+    "id": 21933,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sapphire Reserve",
@@ -5283,7 +5682,10 @@
     "address": "43 Schopolo Place, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Slide</li> <li>Spacenet</li> <li>Stepping logs</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 20924
+    "id": 20924,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Seine Reserve",
@@ -5304,7 +5706,10 @@
     "address": "53 Selwyn Crescent, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Seesaw</li> <li>Swing</li></ul>",
-    "id": 21126
+    "id": 21126,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Selwyn Reserve - Mission Bay",
@@ -5313,7 +5718,10 @@
     "address": "48 Tamaki Drive, Auckland",
     "nb_items": 10,
     "equipment": "<ul><li>Balance board</li> <li>Car springy rocker</li> <li>Junior module</li> <li>Sand play unit</li> <li>Slide</li> <li>Spica</li> <li>Spica</li> <li>Springy rocker</li> <li>Springy seesaw - large</li> <li>Supa nova</li> <li>Swing</li></ul>",
-    "id": 10154
+    "id": 10154,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Semillon Reserve",
@@ -5334,7 +5742,10 @@
     "address": "43 Shadon Place, Stanmore Bay",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 22412
+    "id": 22412,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Shelly Beach Reserve",
@@ -5379,7 +5790,10 @@
     "address": "  Sherwood Avenue, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Fitness Station-Horse Rider & Skier</li> <li>Fitness Station-Shoulder Wheels & Cross</li> <li>Fitness Station-Sit up Bench & Leg Press</li></ul>",
-    "id": 22500
+    "id": 22500,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sherwood Reserve",
@@ -5412,7 +5826,10 @@
     "address": "  Shoesmith Street, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module-Large</li> <li>Module-Small-Jnr-Beach</li> <li>Swing snr</li> <li>Turn Bars</li></ul>",
-    "id": 11210
+    "id": 11210,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Shore Road Reserve",
@@ -5421,7 +5838,10 @@
     "address": "32B Shore Road, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Climber</li> <li>Dippy disc</li> <li>Rocker</li> <li>Slide</li> <li>T-bar swing</li></ul>",
-    "id": 21794
+    "id": 21794,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Silverdale War Memorial Park",
@@ -5454,7 +5874,10 @@
     "address": "  Sunrise Boulevard, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Dynamo rotating climbing net</li> <li>Flying Fox</li> <li>Module-Junior climb slide & play</li> <li>Swings high quad regular & infant</li></ul>",
-    "id": 22359
+    "id": 22359,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Somerville Park",
@@ -5463,7 +5886,10 @@
     "address": "99R Somerville Road, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Air Walker On High Side Of Reserve</li> <li>Elliptical Crosstrainer On High Side</li> <li>Lat Pull Down</li> <li>Leg Press</li></ul>",
-    "id": 21292
+    "id": 21292,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Spargo Reserve",
@@ -5496,7 +5922,10 @@
     "address": "384 Tamaki Drive, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Dome</li> <li>Large module</li> <li>Springy seesaw</li> <li>Swing</li> <li>Swing T bar</li></ul>",
-    "id": 21866
+    "id": 21866,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "St Margarets Park",
@@ -5565,7 +5994,10 @@
     "address": "159 Brightside Road, North Shore",
     "nb_items": 12,
     "equipment": "<ul><li>Flying Fox</li> <li>Module - Medium</li> <li>Module-Medium-Sand</li> <li>Seesaw-Spring double</li> <li>Seesaw-Spring</li> <li>Spacenet-Beach</li> <li>Spinner bowl</li> <li>Spinner bowl</li> <li>Spinner bowl</li> <li>Spinner</li> <li>Swing</li> <li>Swing snr</li> <li>Swing</li> <li>Swing basket</li> <li>Swing rope</li></ul>",
-    "id": 11275
+    "id": 11275,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Starforth Reserve",
@@ -5646,7 +6078,10 @@
     "address": "  Clifton Court, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module</li> <li>Swing T bar</li></ul>",
-    "id": 10072
+    "id": 10072,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sunburst Reserve & Tamatea Espl",
@@ -5655,7 +6090,10 @@
     "address": "  Sunburst Avenue, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing snr</li></ul>",
-    "id": 22360
+    "id": 22360,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sunny Crescent - Merlot Heights Reserve",
@@ -5664,7 +6102,10 @@
     "address": "33 Merlot Heights, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 22461
+    "id": 22461,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sunnynook Park",
@@ -5685,7 +6126,10 @@
     "address": "R 130 Sunnynook Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Small-Climber spinner</li> <li>Spinner bowl</li></ul>",
-    "id": 23464
+    "id": 23464,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sunnyside Domain",
@@ -5718,7 +6162,10 @@
     "address": "4 Hamilton Road, Waiheke Island",
     "nb_items": 3,
     "equipment": "<ul><li>Module</li> <li>Module - climbing</li> <li>Swing T bar</li></ul>",
-    "id": 10319
+    "id": 10319,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Sutton Park",
@@ -5775,7 +6222,10 @@
     "address": "10 Boardwalk Rise, Long Bay",
     "nb_items": 6,
     "equipment": "<ul><li>Module-large house</li> <li>Pirate tower rope structure</li> <li>rocker boat</li> <li>Seesaw</li> <li>slide tunnel</li> <li>slide tunnel</li> <li>spinner</li></ul>",
-    "id": 23845
+    "id": 23845,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Taipari Strand",
@@ -5808,7 +6258,10 @@
     "address": "24R Taka Street, Auckland South",
     "nb_items": 15,
     "equipment": "<ul><li>Flying Fox</li> <li>Balancing bars</li> <li>Basket swing</li> <li>Modern modular</li> <li>Climber</li> <li>infant swing</li> <li>Rope climber</li> <li>Rotating cone climber</li> <li>See saw</li> <li>Shockwave-Rocker</li> <li>slide</li> <li>Swing set</li> <li>Twirler Spinner</li> <li>Wave slide</li> <li>Flat rail</li></ul>",
-    "id": 11198
+    "id": 11198,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Takapuna Rose Gardens",
@@ -5889,7 +6342,10 @@
     "address": "5 Okahukura Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing snr</li></ul>",
-    "id": 11261
+    "id": 11261,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Taramea Reserve",
@@ -5922,7 +6378,10 @@
     "address": "3 Taroka Close, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 21891
+    "id": 21891,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Tatyana Park",
@@ -5967,7 +6426,10 @@
     "address": "  Bluff Terrace, Auckland",
     "nb_items": 5,
     "equipment": "<ul><li>Seesaw</li> <li>Slide</li> <li>Spinner roundabout</li> <li>Stepping logs</li> <li>Swing</li></ul>",
-    "id": 20823
+    "id": 20823,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Taylors Park",
@@ -6012,7 +6474,10 @@
     "address": "25 Te Moau Avenue (adjacent to), Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 22474
+    "id": 22474,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Te Pai Park",
@@ -6045,7 +6510,10 @@
     "address": "  Te Toro Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Slide</li> <li>Swing</li></ul>",
-    "id": 21244
+    "id": 21244,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Temuka Gardens",
@@ -6078,7 +6546,10 @@
     "address": "  The Esplanade, Waiheke Island",
     "nb_items": 1,
     "equipment": "<ul><li>Swing T bar</li></ul>",
-    "id": 20554
+    "id": 20554,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Thompson Park",
@@ -6171,7 +6642,10 @@
     "address": "8R Topland Drive, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>PLAT-Above slide</li> <li>Roundabout</li> <li>Slide</li> <li>Springy bee</li> <li>Swing basket</li> <li>Swing unit</li></ul>",
-    "id": 21540
+    "id": 21540,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Torino Reserve",
@@ -6216,7 +6690,10 @@
     "address": "37 Totaravale Drive, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Flying Fox</li> <li>Module-Large</li> <li>Module-Small-Jnr</li></ul>",
-    "id": 11075
+    "id": 11075,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Township Park",
@@ -6249,7 +6726,10 @@
     "address": "59-77 Central Park Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular</li> <li>Modern Modular</li> <li>Stepping Logs</li></ul>",
-    "id": 24050
+    "id": 24050,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Tui Glen Reserve",
@@ -6282,7 +6762,10 @@
     "address": "  Tuna Place, Omaha",
     "nb_items": 3,
     "equipment": "<ul><li>Roctopus</li> <li>Spinner</li> <li>Swing</li></ul>",
-    "id": 22154
+    "id": 22154,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Turner Reserve",
@@ -6303,7 +6786,10 @@
     "address": "37 Tworney Drive, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Large module</li> <li>Spinning Cup</li> <li>Springy seesaw</li></ul>",
-    "id": 21398
+    "id": 21398,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Unsworth Reserve",
@@ -6384,7 +6870,10 @@
     "address": "55 Virginia Avenue West, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module</li> <li>Swings</li></ul>",
-    "id": 20930
+    "id": 20930,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Virgo Common",
@@ -6405,7 +6894,10 @@
     "address": "921 Beach Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Slide</li> <li>Spacenet Swing Trampoline</li> <li>Swing keyhole Jnr</li></ul>",
-    "id": 20074
+    "id": 20074,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Waiatarua Reserve (Remuera)",
@@ -6414,7 +6906,10 @@
     "address": "98 Abbotts Way, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Grasshopper rocker</li> <li>Module</li> <li>Module</li> <li>Overhead spinner</li> <li>Seesaw</li> <li>Spica</li> <li>Swing</li></ul>",
-    "id": 10253
+    "id": 10253,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Waiheke Island Sports Club",
@@ -6423,7 +6918,10 @@
     "address": "43 Causeway Road, Waiheke Island",
     "nb_items": 2,
     "equipment": "<ul><li>Module</li> <li>Springy animal rocker</li></ul>",
-    "id": 10028
+    "id": 10028,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Waikowhai Park",
@@ -6480,7 +6978,10 @@
     "address": "9 Flavia Place, Auckland",
     "nb_items": 4,
     "equipment": "<ul><li>Module</li> <li>Roundabout</li> <li>Seesaw</li> <li>Swing</li></ul>",
-    "id": 21543
+    "id": 21543,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Wairoa Road Reserve",
@@ -6585,7 +7086,10 @@
     "address": "1A Baxter Street, North Shore",
     "nb_items": 25,
     "equipment": "<ul><li>Blue Arch Bridge</li> <li>Blue Panel</li> <li>Bubble</li> <li>Climber-Blue</li> <li>Climber</li> <li>Climbing Rail</li> <li>Embankment slide</li> <li>Firetruck</li> <li>Hammock - small</li> <li>Hut with Tunnel</li> <li>Mosaic Hop Scotch</li> <li>Overhead Bars</li> <li>Rope Walk Bridge</li> <li>Rope Wall Climber</li> <li>Seat panels</li> <li>Seesaw-Spring</li> <li>Slide-Tunnel</li> <li>springy skateboard</li> <li>Stepping logs</li> <li>Steps to Tunnel Slide</li> <li>Suspended Rope Walk</li> <li>Swing flower Jnr</li> <li>Swing flower Jnr</li> <li>Swing Jnr</li> <li>Timber pods under shade</li> <li>Timber Stepping Logs</li></ul>",
-    "id": 11247
+    "id": 11247,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Warkworth Showgrounds",
@@ -6594,7 +7098,10 @@
     "address": "2 Great North Road, Auckland",
     "nb_items": 7,
     "equipment": "<ul><li>double seater dolphin</li> <li>Flying Fox</li> <li>Module-Small-Jnr</li> <li>Spacenet</li> <li>Spinner</li> <li>Spinner</li> <li>Supernova</li> <li>Swing</li></ul>",
-    "id": 22308
+    "id": 22308,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Warren Freer Park",
@@ -6663,7 +7170,10 @@
     "address": "190 Wellington Street, Pukekohe",
     "nb_items": 6,
     "equipment": "<ul><li>Arm Pull</li> <li>Leg Press</li> <li>Leg Swing</li> <li>Rowing</li> <li>FITN-Stair Climber. Henry Curd Entrance</li> <li>Wheelchair swing</li></ul>",
-    "id": 10514
+    "id": 10514,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Wellsford Centennial Park",
@@ -6696,7 +7206,10 @@
     "address": "  Wentworth Park, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Small</li></ul>",
-    "id": 21847
+    "id": 21847,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "West Harbour Esplanade - West",
@@ -6705,7 +7218,10 @@
     "address": "93-97 West Harbour Drive, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Modern Modular</li> <li>Swing Double</li></ul>",
-    "id": 23622
+    "id": 23622,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "West Reserve",
@@ -6738,7 +7254,10 @@
     "address": "5 Ponsonby Road, Auckland",
     "nb_items": 13,
     "equipment": "<ul><li>Balance beam</li> <li>Double wave slide</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Fitness Station</li> <li>Flying Fox</li> <li>Junior Slide unit</li> <li>Monkey Bars</li> <li>Overhead bars</li> <li>Overhead bars</li> <li>Seesaw</li> <li>Slide</li> <li>Stainless steel slide - short</li> <li>Swings</li> <li>Tube Slide and platform</li> <li>Tube Slide with bermese bridge entrance</li></ul>",
-    "id": 10356
+    "id": 10356,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Western Springs Lakeside",
@@ -6747,7 +7266,10 @@
     "address": "859 Great North Road, Auckland Central",
     "nb_items": 9,
     "equipment": "<ul><li>Dynamo rotating net</li> <li>Junior module</li> <li>Junior module</li> <li>Module - junior</li> <li>Roktopus</li> <li>Seesaw</li> <li>Senior module</li> <li>Swing</li> <li>Swing</li> <li>Swing</li> <li>Swing T bar</li> <li>Swing tyre</li></ul>",
-    "id": 10348
+    "id": 10348,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Whangateau Holiday Park Grounds",
@@ -6756,7 +7278,10 @@
     "address": "559 Leigh Road, North Shore",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Small-Jnr</li> <li>Swing</li></ul>",
-    "id": 11274
+    "id": 11274,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Whangateau Reserve",
@@ -6777,7 +7302,10 @@
     "address": "29 Wharf Road, Auckland",
     "nb_items": 2,
     "equipment": "<ul><li>Module-Medium</li> <li>Swing</li></ul>",
-    "id": 22103
+    "id": 22103,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Wharua Reserve",
@@ -6822,7 +7350,10 @@
     "address": "600R Pakuranga Road, Auckland East",
     "nb_items": 6,
     "equipment": "<ul><li>Concrete Tunnel</li> <li>Concrete Tunnel</li> <li>Embankment slide</li> <li>Small roundabout</li> <li>Spring Seesaw</li> <li>Stepping logs</li> <li>Swing set</li></ul>",
-    "id": 10719
+    "id": 10719,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "William Souter Reserve",
@@ -6831,7 +7362,10 @@
     "address": "39 William Souter Street, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Swing</li></ul>",
-    "id": 20964
+    "id": 20964,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Windsor Reserve",
@@ -6864,7 +7398,10 @@
     "address": "34 Wintere Road, Auckland",
     "nb_items": 3,
     "equipment": "<ul><li>Small modular</li> <li>Step'g pods</li> <li>Step'g pods</li> <li>Step'g pods</li> <li>Step'g pods</li> <li>Swing unit</li></ul>",
-    "id": 20283
+    "id": 20283,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Withers Reserve",
@@ -6909,7 +7446,10 @@
     "address": "19 Woodridge Avenue, Auckland",
     "nb_items": 1,
     "equipment": "<ul><li>Module-Medium</li></ul>",
-    "id": 22239
+    "id": 22239,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Worthington Road Reserve",
@@ -6930,7 +7470,10 @@
     "address": "41 Lake Panorama Drive, Auckland",
     "nb_items": 6,
     "equipment": "<ul><li>Log Climber</li> <li>Modern Modular</li> <li>Roctopus</li> <li>Single Seesaw</li> <li>Springy Animal</li> <li>Swing Quad</li></ul>",
-    "id": 21321
+    "id": 21321,
+    "url": "",
+    "facilities": "",
+    "about": ""
   },
   {
     "name": "Yates Park",
