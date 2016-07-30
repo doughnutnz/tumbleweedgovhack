@@ -1,7 +1,6 @@
-package com.example.stefan.mapdrawer;
+package nz.co.govhack.tumbleweed.mapdrawer;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -9,9 +8,6 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -26,18 +22,20 @@ import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.MarkerManager;
+import com.google.maps.android.clustering.Cluster;
+import com.google.maps.android.clustering.ClusterManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class MapsFragment extends SupportMapFragment implements OnMapReadyCallback {
+public class MapsFragment extends SupportMapFragment implements OnMapReadyCallback,
+         ClusterManager.OnClusterItemInfoWindowClickListener<PlaygroundMarker>,
+         ClusterManager.OnClusterClickListener<PlaygroundMarker>{
 
     private GoogleMap mMap;
     private JSONArray parksJson;
@@ -48,6 +46,8 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     private int defaultZoom = 9;
 
     private HashMap<Marker, Integer> mMarkers;
+    private HashMap<PlaygroundMarker, Integer> mPlaygroundMarkers;
+    private ClusterManager<PlaygroundMarker> mClusterManager;
 
     /**
      * Flag indicating whether a requested permission has been denied after returning in
@@ -102,6 +102,8 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
         mMarkers = new HashMap<>();
+        mPlaygroundMarkers = new HashMap<>();
+        setUpClusterer();
 
         // Add markers for each record in the database
         for(int i = 0; i < parksJson.length(); i++) {
@@ -117,15 +119,27 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 MarkerOptions marker = new MarkerOptions()
                         .position(location)
                         .title(name)
-                        .snippet(address);
+                        .snippet(address).visible(false);
 
                 Marker m = mMap.addMarker(marker);
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
+                PlaygroundMarker pm = new PlaygroundMarker(lat, lon, name);
+                mClusterManager.addItem(pm);
 
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
                 mMarkers.put(m, id);
+                mPlaygroundMarkers.put(pm, id);
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }
+
+            //http://stackoverflow.com/questions/30958224/android-maps-utils-clustering-show-infowindow
+            mMap.setOnInfoWindowClickListener(mClusterManager);
+            mClusterManager.setOnClusterItemInfoWindowClickListener(this);
+            //mMap.setOnClickListener(mClusterManager);
+            mClusterManager.setOnClusterClickListener(this);
+
+
         }
 
         mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
@@ -162,10 +176,12 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         mUiSettings.setZoomControlsEnabled(true);
         mUiSettings.setCompassEnabled(true);
 
+     /*
         // capture click events
         mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
             @Override
             public void onInfoWindowClick(Marker marker) {
+                //int id = mMarkers.get(marker);
                 int id = mMarkers.get(marker);
 
                 Bundle b = new Bundle();
@@ -175,7 +191,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 intent.putExtras(b);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 
     @Override
@@ -202,4 +218,33 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     public GoogleMap getMyMap() {
         return mMap;
     }
+
+    private void setUpClusterer() {
+
+        mClusterManager = new ClusterManager<PlaygroundMarker>(this.getContext(), getMyMap());
+        mClusterManager.setRenderer(new PlaygroundIconRender(this.getContext(), mMap, mClusterManager));
+        getMyMap().setOnCameraChangeListener(mClusterManager);
+
+
+    }
+
+    @Override
+    public void onClusterItemInfoWindowClick(PlaygroundMarker pm) {
+        int id = mPlaygroundMarkers.get(pm);
+
+        Bundle b = new Bundle();
+        b.putString("record_id", "" + id);
+
+        Intent intent = new Intent(getActivity(), ViewRecordActivity.class);
+        intent.putExtras(b);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onClusterClick(Cluster<PlaygroundMarker> cl) {
+        Toast.makeText(getActivity(), "More playgrounds here!", Toast.LENGTH_LONG).show();
+        return true;
+    }
+
 }
+

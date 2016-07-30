@@ -45,7 +45,7 @@
             <!-- The rest of content view -->
             <fragment
                 android:id="@+id/map"
-                class="com.example.stefan.mapdrawer.MapsFragment"
+                class="nz.co.govhack.tumbleweed.mapdrawer.MapsFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>

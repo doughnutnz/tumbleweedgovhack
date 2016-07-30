@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.stefan.mapdrawer.MapDrawerActivity">
+    tools:context="nz.co.govhack.tumbleweed.mapdrawer.MapDrawerActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
 
         <fragment
             android:id="@+id/map"
-            class="com.example.stefan.mapdrawer.MapsFragment"
+            class="nz.co.govhack.tumbleweed.mapdrawer.MapsFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             />

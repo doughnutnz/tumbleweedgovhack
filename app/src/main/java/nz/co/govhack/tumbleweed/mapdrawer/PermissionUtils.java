@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.stefan.mapdrawer;
+package nz.co.govhack.tumbleweed.mapdrawer;
 
 import android.Manifest;
 import android.app.AlertDialog;
