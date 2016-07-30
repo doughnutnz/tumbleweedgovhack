@@ -26,6 +26,7 @@ import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.clustering.ClusterManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,6 +49,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     private int defaultZoom = 9;
 
     private HashMap<Marker, Integer> mMarkers;
+    private ClusterManager<PlaygroundMarker> mClusterManager;
 
     /**
      * Flag indicating whether a requested permission has been denied after returning in
@@ -102,6 +104,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
         mMarkers = new HashMap<>();
+        setUpClusterer();
 
         // Add markers for each record in the database
         for(int i = 0; i < parksJson.length(); i++) {
@@ -117,9 +120,13 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 MarkerOptions marker = new MarkerOptions()
                         .position(location)
                         .title(name)
-                        .snippet(address);
+                        .snippet(address)
+                        .visible(false);
 
                 Marker m = mMap.addMarker(marker);
+                PlaygroundMarker pm = new PlaygroundMarker(lat, lon);
+                mClusterManager.addItem(pm);
+
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
 
                 mMarkers.put(m, id);
@@ -201,5 +208,15 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
 
     public GoogleMap getMyMap() {
         return mMap;
+    }
+
+    private void setUpClusterer() {
+        // Initialize the manager with the context and the map.
+        // (Activity extends context, so we can pass 'this' in the constructor.)
+
+        mClusterManager = new ClusterManager<PlaygroundMarker>(this.getContext(), getMyMap());
+        getMyMap().setOnCameraChangeListener(mClusterManager);
+
+
     }
 }
