@@ -37,6 +37,13 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
     private int count;
     private float curRate;
 
+    String installationId = "";
+    String recordId = "";
+    String playgroundName = "";
+    String lat = "";
+    String lon = "";
+    String mark = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,12 +69,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
 
         Bundle b = getIntent().getExtras();
         if (b != null) {
-            String recordId = b.getString("record_id");
+            recordId = b.getString("record_id");
             mRecord = findRecordById(recordId);
-            String installationId = "";
-            String playgroundName = "";
-            String lat = "";
-            String lon = "";
 
             try {
                 toolbar.setTitle(mRecord.getString("name"));
@@ -163,5 +166,35 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
                 "New Rating: " + curRate, Toast.LENGTH_SHORT).show();
         setRatingBar.setRating(curRate);
         countText.setText(count + " Ratings");
+
+
+        mark = String.valueOf((int) rating);
+
+        OkHttpClient client = new OkHttpClient();
+        String url = getResources().getString(R.string.store_rating_url);
+
+        FormBody formBody = new FormBody.Builder()
+                .add("installation_id", installationId)
+                .add("record_id", recordId)
+                .add("playground_name", playgroundName)
+                .add("mark", mark)
+                .build();
+        Request request = new Request.Builder()
+                .url(url)
+                .post(formBody)
+                .build();
+
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.i("****", "Failed to record rating", e);
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                Log.i("****", "Rating has been recorded");
+                Log.i("****", "The Http response is: " + response.toString());
+            }
+        });
     }
 }

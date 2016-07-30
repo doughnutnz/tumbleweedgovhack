@@ -9,6 +9,7 @@
     <string name="action_map_type_hybrid">Satellite</string>
     <string name="title_activity_maps">Map</string>
     <string name="store_click_url">https://govhacktumbleweed.appspot.com/store_click</string>
+    <string name="store_rating_url">https://govhacktumbleweed.appspot.com/store_rating</string>
 
     <!--    Permissions    -->
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
