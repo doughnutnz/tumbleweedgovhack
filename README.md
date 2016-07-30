@@ -1,7 +1,7 @@
 # tumbleweedgovhack
 GovHack 2016
 
-Team:
+# Team:
 [Dr. Stefan Schliebs](https://nz.linkedin.com/in/sschliebs)
 Senior Data Scientist at Plexure
 
