@@ -1,6 +1,7 @@
 package com.example.stefan.mapdrawer;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -15,6 +16,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -40,6 +42,10 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     private GoogleMap mMap;
     private JSONArray parksJson;
     private UiSettings mUiSettings;
+
+    private double defaultLat = -41;
+    private double defaultLon = 174;
+    private int defaultZoom = 9;
 
     private HashMap<Marker, Integer> mMarkers;
 
@@ -67,6 +73,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
     }
 
     /**
@@ -82,6 +89,9 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mUiSettings = mMap.getUiSettings();
+
+        LatLng ll = new LatLng(defaultLat, defaultLon);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ll, defaultZoom));
 
         // show current location
         if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
@@ -103,7 +113,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 String address = ((JSONObject)parksJson.get(i)).getString("address");
                 // String geocode_address = ((JSONObject)parksJson.get(i)).getString("geocode_address");
 
-                LatLng location = new LatLng(lon, lat);
+                LatLng location = new LatLng(lat, lon);
                 MarkerOptions marker = new MarkerOptions()
                         .position(location)
                         .title(name)
