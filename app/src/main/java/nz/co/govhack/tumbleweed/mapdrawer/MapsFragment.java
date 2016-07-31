@@ -112,6 +112,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                 double lon = ((JSONObject)parksJson.get(i)).getDouble("long");
                 double lat = ((JSONObject)parksJson.get(i)).getDouble("lat");
                 int id = ((JSONObject)parksJson.get(i)).getInt("id");
+                int items = ((JSONObject)parksJson.get(i)).getInt("nb_items");
                 String name = ((JSONObject)parksJson.get(i)).getString("name");
                 String address = ((JSONObject)parksJson.get(i)).getString("address");
                 // String geocode_address = ((JSONObject)parksJson.get(i)).getString("geocode_address");
@@ -123,7 +124,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
                         .snippet(address).visible(false);
 
                 Marker m = mMap.addMarker(marker);
-                PlaygroundMarker pm = new PlaygroundMarker(lat, lon, name);
+                PlaygroundMarker pm = new PlaygroundMarker(lat, lon, name, items);
                 mClusterManager.addItem(pm);
 
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
