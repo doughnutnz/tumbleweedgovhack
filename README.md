@@ -21,7 +21,7 @@ The **Kiwi Playgrounds App** makes this much easier, presenting publicly availab
 * [Android Studio](https://developer.android.com/studio/intro/index.html)
 * [IBM Bluemix](https://new-console.ng.bluemix.net/)
     * [Python Runtime](https://new-console.ng.bluemix.net/docs/runtimes/python/index.html#python_runtime) on Cloud Foundry
-    * [Weather Company Data](https://new-console.ng.bluemix.net/catalog/services/weather-company-data-for-ibm-bluemix/)
+    * [Weather Company Data](https://new-console.ng.bluemix.net/catalog/services/weather-company-data-for-ibm-bluemix/) - [instance](https://weather-company-data-demo-govhack2016tumbleweed-1249.mybluemix.net/)
 * [RStudio](https://www.rstudio.com/)
 * [Trumba](https://www.trumba.com/connect/default.aspx)
 * [Trello](https://trello.com/b/aTeBGGrf/tumbleweed-govhack-2016)
