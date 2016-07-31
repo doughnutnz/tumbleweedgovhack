@@ -85,11 +85,16 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
                 String details = "<h2>Address</h2>" +
                         "<p>" + mRecord.getString("address") + "</p>" +
                         "<h2>Equipement</h2>" +
-                        "<p>" + mRecord.getString("equipment") + "</p>" +
-                        "<h2>Facilities</h2>" +
-                        "<p>" + mRecord.getString("facilities") + "</p>" +
-                        "<h2>About</h2>" +
-                        "<p>" + mRecord.getString("about") + "</p>";
+                        "<p>" + mRecord.getString("equipment") + "</p>";
+
+                String facilities = mRecord.getString("facilities");
+                String about = mRecord.getString("about");
+
+                if(facilities.length()>0) details += "<h2>Facilities</h2>" +
+                                                    "<p>" + facilities + "</p>";
+                if(about.length()>0) details += "<h2>About</h2>" +
+                                                "<p>" + about + "</p>";
+
                 ((TextView) findViewById(R.id.record_details)).setText(Html.fromHtml(details));
 
                 installationId = Installation.id(getApplicationContext());
