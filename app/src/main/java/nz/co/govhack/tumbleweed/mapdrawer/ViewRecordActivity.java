@@ -1,6 +1,8 @@
 package nz.co.govhack.tumbleweed.mapdrawer;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -36,6 +38,7 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
     private TextView countText;
     private int count;
     private float curRate;
+    private float globalRate;
 
     String installationId = "";
     String recordId = "";
@@ -44,10 +47,13 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
     String lon = "";
     String mark = "";
 
+    boolean initialisation = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_record);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_view);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -97,40 +103,23 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
                 Log.i("****", "Json error here", e);
             }
 
-            OkHttpClient client = new OkHttpClient();
-            String url = getResources().getString(R.string.store_click_url);
-
-            FormBody formBody = new FormBody.Builder()
-                                        .add("installation_id", installationId)
-                                        .add("record_id", recordId)
-                                        .add("playground_name", playgroundName)
-                                        .add("latitude", lat)
-                                        .add("longitude", lon)
-                                        .build();
-            Request request = new Request.Builder()
-                                        .url(url)
-                                        .post(formBody)
-                                        .build();
-
-            client.newCall(request).enqueue(new Callback() {
-                @Override
-                public void onFailure(Call call, IOException e) {
-                    Log.i("****", "Failed to record click", e);
-                }
-
-                @Override
-                public void onResponse(Call call, Response response) throws IOException {
-                    Log.i("****", "Click has been recorded");
-                    Log.i("****", "The Http response is: " + response.toString());
-                }
-            });
-
         }
 
         findViewsById();
 
         getRatingBar.setOnRatingBarChangeListener(this);
-        setRatingBar.setRating(curRate);
+
+        /*
+        RecordClick record = new RecordClick();
+        record.execute();
+
+        UpdateRating update = new UpdateRating();
+        update.execute();*/
+
+        recordClick();
+        updateGlobalRating();
+        updateInstallationRating();
+
     }
 
     private void findViewsById() {
@@ -152,27 +141,84 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
-    @Override
-    public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-        rating = (float) Math.round(rating);
-        DecimalFormat decimalFormat = new DecimalFormat("#.#");
-        curRate = Float.valueOf(decimalFormat.format((curRate * count + rating)
-                / ++count));
-        Toast.makeText(ViewRecordActivity.this,
-                "New Rating: " + curRate, Toast.LENGTH_SHORT).show();
-        setRatingBar.setRating(curRate);
-        countText.setText(count + " Ratings");
-
-
-        mark = String.valueOf((int) rating);
-
+    private void updateGlobalRating() {
         OkHttpClient client = new OkHttpClient();
-        String url = getResources().getString(R.string.store_rating_url);
+        String url = getResources().getString(R.string.rating_url);
+        Request request = new Request.Builder().url(url + "?playground_name=" + playgroundName).get().build();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.i("****", "Failed to update rating", e);
+            }
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    String jsonData = response.body().string();
+                    JSONObject Jobject = new JSONObject(jsonData);
+                    count = (int) Jobject.getDouble("count");
+                    if(count>0) {
+                        globalRate = (float) Jobject.getDouble("rating");
+                    }
+                } catch (JSONException e) {
+                    Log.i("****", "Rating update has failed", e);
+                } catch (IOException e) {
+                    Log.i("****", "Rating update has failed", e);
+                }
 
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        setRatingBar.setRating((int) globalRate);
+                        countText.setText(count + " user ratings");
+                    }
+                });
+                Log.i("****", "Rating has been updated");
+                Log.i("****", "The Http response is: " + response.toString());
+            }
+        });
+    }
+
+    private void updateInstallationRating() {
+        OkHttpClient client = new OkHttpClient();
+        String url = getResources().getString(R.string.rating_url);
+        Request request = new Request.Builder().url(url + "?playground_name=" + playgroundName + "&installation_id=" + installationId).get().build();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.i("****", "Failed to update rating", e);
+            }
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    String jsonData = response.body().string();
+                    JSONObject Jobject = new JSONObject(jsonData);
+                    count = (int) Jobject.getDouble("count");
+                    if(count>0) {
+                        curRate = (float) Jobject.getDouble("rating");
+                    }
+                } catch (JSONException e) {
+                    Log.i("****", "Rating installation update has failed", e);
+                } catch (IOException e) {
+                    Log.i("****", "Rating installation update has failed", e);
+                }
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        getRatingBar.setRating((int) curRate);
+                    }
+                });
+                Log.i("****", "The Http response is: " + response.toString());
+            }
+        });
+        initialisation = false;
+    }
+
+    private void postRating() {
+        OkHttpClient client = new OkHttpClient();
+        String url = getResources().getString(R.string.rating_url);
         FormBody formBody = new FormBody.Builder()
                 .add("installation_id", installationId)
                 .add("record_id", recordId)
@@ -183,18 +229,105 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
                 .url(url)
                 .post(formBody)
                 .build();
-
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 Log.i("****", "Failed to record rating", e);
             }
-
             @Override
             public void onResponse(Call call, Response response) throws IOException {
+                updateGlobalRating();
                 Log.i("****", "Rating has been recorded");
                 Log.i("****", "The Http response is: " + response.toString());
             }
         });
     }
+
+    private void recordClick() {
+        OkHttpClient client = new OkHttpClient();
+        String url = getResources().getString(R.string.store_click_url);
+        FormBody formBody = new FormBody.Builder()
+                .add("installation_id", installationId)
+                .add("record_id", recordId)
+                .add("playground_name", playgroundName)
+                .add("latitude", lat)
+                .add("longitude", lon)
+                .build();
+        Request request = new Request.Builder()
+                .url(url)
+                .post(formBody)
+                .build();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.i("****", "Failed to record click", e);
+            }
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                Log.i("****", "Click has been recorded");
+                Log.i("****", "The Http response is: " + response.toString());
+            }
+        });
+    }
+
+    @Override
+    public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+        mark = String.valueOf(Math.round(rating));
+        if(!initialisation) {
+            postRating();
+        }
+    }
+
+    private class RecordClick extends AsyncTask<Void, Integer, Void>
+    {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            recordClick();
+            return null;
+        }
+
+    }
+
+    private class UpdateRating extends AsyncTask<Void, Integer, Void>
+    {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            updateGlobalRating();
+            return null;
+        }
+
+    }
+
+    private class PostRating extends AsyncTask<Void, Integer, Void>
+    {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            postRating();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            Toast.makeText(getApplicationContext(), "Thanks !", Toast.LENGTH_LONG).show();
+        }
+    }
+
 }
