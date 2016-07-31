@@ -12,6 +12,7 @@ The **Kiwi Playgrounds App** makes this much easier, presenting publicly availab
 # Website and Android App
 * [IBM Bluemix site](http://bit.ly/gh16play)
 * [GovHack on Google Play](https://play.google.com/store/search?q=govhack)
+* [Kiwi Playgrounds](https://play.google.com/apps/testing/nz.co.govhack.tumbleweed.mapdrawer) beta test link on Google Play Store
 
 # Datasets Used
 * [Auckland Council Park Extent](http://aucklandopendata.aucklandcouncil.opendata.arcgis.com/datasets/b73e1d6e2fae4515b517db8c975f85c7_0) in Auckland Open Data - Beta 
