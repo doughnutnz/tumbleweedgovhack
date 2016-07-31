@@ -42,6 +42,11 @@ Dramatic Improvement In Organisational Performance
 * [Doug Hunt](https://nz.linkedin.com/in/doughunt)
 Creating technology that enables athletes to train more effectively
 
+# Inspiration
+* [Family Places App](https://play.google.com/store/apps/details?id=nz.co.juliusspencer.android.mixmash) in Google Play Store
+* [The Tasmanian Convict Finder](https://play.google.com/store/apps/details?id=info.tasmanianconvictfinder) in Google Play Store (GovHack 2015)
+* [What Grows Here](https://play.google.com/store/apps/details?id=com.brightcookie.whatgrowshere) in Google Play Store and on [github](https://github.com/NatureNinjas/whatgrowshere) (GovHack 2014)
+
 # Thanks
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/GovHack_logo.svg/1280px-GovHack_logo.svg.png" alt="GovHack logo" height="150"> ![Auckland Council](http://www.aucklandcouncil.govt.nz/_layouts/images/ac/logo_print.jpg) <img src="https://pbs.twimg.com/profile_images/664325337849860096/GZ4-un6w_400x400.jpg" alt="Smiley face" height="150"> 
 * Cherie Ells of <a href="http://govhack.nz/">GovHack NZ</a> for organizing Auckland 
