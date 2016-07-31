@@ -15,6 +15,7 @@ The **Kiwi Playgrounds App** makes this much easier, presenting publicly availab
 
 # Datasets Used
 * [Auckland Council Park Extent](http://aucklandopendata.aucklandcouncil.opendata.arcgis.com/datasets/b73e1d6e2fae4515b517db8c975f85c7_0) in Auckland Open Data - Beta 
+* [Auckland Council Find a Park](http://www.aucklandcouncil.govt.nz/EN/parksfacilities/parksall/Pages/home2.aspx)
 
 # Tools Used
 * Github (here!)
