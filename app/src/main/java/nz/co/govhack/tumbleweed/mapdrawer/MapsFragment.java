@@ -65,29 +65,12 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         super.onCreate(savedInstanceState);
 
         /* ask for location permission if need be cf https://developer.android.com/training/permissions/requesting.html */
-        if (ContextCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
+        if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
 
-            // Should we show an explanation?
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this.getActivity(),
-                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                    MY_LOCATION_PERMISSION_REQUEST_CODE);
 
-                // Show an expanation to the user *asynchronously* -- don't block
-                // this thread waiting for the user's response! After the user
-                // sees the explanation, try again to request the permission.
-
-            } else {
-
-                // No explanation needed, we can request the permission.
-
-                ActivityCompat.requestPermissions(this.getActivity(),
-                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                        MY_LOCATION_PERMISSION_REQUEST_CODE);
-
-                // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
-                // app-defined int constant. The callback method gets the
-                // result of the request.
-            }
         }
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -115,6 +98,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
         mUiSettings = mMap.getUiSettings();
 
@@ -204,32 +188,46 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         mUiSettings.setZoomControlsEnabled(true);
         mUiSettings.setCompassEnabled(true);
 
-     /*
-        // capture click events
-        mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
-            @Override
-            public void onInfoWindowClick(Marker marker) {
-                //int id = mMarkers.get(marker);
-                int id = mMarkers.get(marker);
 
-                Bundle b = new Bundle();
-                b.putString("record_id", "" + id);
-
-                Intent intent = new Intent(getActivity(), ViewRecordActivity.class);
-                intent.putExtras(b);
-                startActivity(intent);
-            }
-        });*/
     }
 
     @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+
+        switch (requestCode) {
+            case MY_LOCATION_PERMISSION_REQUEST_CODE: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    mUiSettings.setMyLocationButtonEnabled(true);
+                    mMap.setMyLocationEnabled(true);
+
+                } else {
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
+    }
+
+    /*
+    @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
+        Log.i("##################", "########################");
+        mMap.setMyLocationEnabled(true);
         if (requestCode == MY_LOCATION_PERMISSION_REQUEST_CODE) {
             // Enable the My Location button if the permission has been granted.
             if (PermissionUtils.isPermissionGranted(permissions, grantResults,
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
                 mUiSettings.setMyLocationButtonEnabled(true);
+                mMap.setMyLocationEnabled(true);
             }
 
         } else if (requestCode == LOCATION_LAYER_PERMISSION_REQUEST_CODE) {
@@ -242,6 +240,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
             }
         }
     }
+ */
 
     public GoogleMap getMyMap() {
         return mMap;
