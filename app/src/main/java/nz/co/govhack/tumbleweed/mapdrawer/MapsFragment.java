@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.Gravity;
@@ -63,6 +64,15 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        /* ask for location permission if need be cf https://developer.android.com/training/permissions/requesting.html */
+        if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                    MY_LOCATION_PERMISSION_REQUEST_CODE);
+
+        }
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getActivity().getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -88,6 +98,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
         mUiSettings = mMap.getUiSettings();
 
@@ -177,32 +188,46 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
         mUiSettings.setZoomControlsEnabled(true);
         mUiSettings.setCompassEnabled(true);
 
-     /*
-        // capture click events
-        mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
-            @Override
-            public void onInfoWindowClick(Marker marker) {
-                //int id = mMarkers.get(marker);
-                int id = mMarkers.get(marker);
 
-                Bundle b = new Bundle();
-                b.putString("record_id", "" + id);
-
-                Intent intent = new Intent(getActivity(), ViewRecordActivity.class);
-                intent.putExtras(b);
-                startActivity(intent);
-            }
-        });*/
     }
 
     @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+
+        switch (requestCode) {
+            case MY_LOCATION_PERMISSION_REQUEST_CODE: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    mUiSettings.setMyLocationButtonEnabled(true);
+                    mMap.setMyLocationEnabled(true);
+
+                } else {
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
+    }
+
+    /*
+    @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
+        Log.i("##################", "########################");
+        mMap.setMyLocationEnabled(true);
         if (requestCode == MY_LOCATION_PERMISSION_REQUEST_CODE) {
             // Enable the My Location button if the permission has been granted.
             if (PermissionUtils.isPermissionGranted(permissions, grantResults,
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
                 mUiSettings.setMyLocationButtonEnabled(true);
+                mMap.setMyLocationEnabled(true);
             }
 
         } else if (requestCode == LOCATION_LAYER_PERMISSION_REQUEST_CODE) {
@@ -215,6 +240,7 @@ public class MapsFragment extends SupportMapFragment implements OnMapReadyCallba
             }
         }
     }
+ */
 
     public GoogleMap getMyMap() {
         return mMap;
