@@ -122,8 +122,10 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
         }
 
         // add background image
-        String url = "https://maps.googleapis.com/maps/api/streetview?size=600x300&location=" +
-                lat + "," + lon + "&heading=151.78&pitch=0";
+        String url = "https://maps.googleapis.com/maps/api/staticmap?center=" +
+                lat + "," + lon + "&zoom=19&size=600x300&maptype=satellite";
+//        String url = "https://maps.googleapis.com/maps/api/streetview?size=600x300&location=" +
+//                lat + "," + lon + "&heading=151.78&pitch=0";
         // String url = "https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/images/115334main_image_feature_329_ys_full.jpg";
         PictureLoader loader = new PictureLoader();
         loader.execute(new String[] {url});
