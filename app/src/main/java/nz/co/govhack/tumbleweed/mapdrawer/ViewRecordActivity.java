@@ -1,5 +1,7 @@
 package nz.co.govhack.tumbleweed.mapdrawer;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -10,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,7 +22,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
 import java.text.DecimalFormat;
+
+import javax.net.ssl.HttpsURLConnection;
 
 import okhttp3.Call;
 import okhttp3.FormBody;
@@ -46,6 +55,7 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
     String lat = "";
     String lon = "";
     String mark = "";
+    ImageView imageView = null;
 
     boolean initialisation = true;
 
@@ -54,6 +64,7 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_record);
 
+        imageView = (ImageView) findViewById(R.id.background_image);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_view);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -110,6 +121,13 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
 
         }
 
+        // add background image
+        String url = "https://maps.googleapis.com/maps/api/streetview?size=600x300&location=" +
+                lat + "," + lon + "&heading=151.78&pitch=0";
+        // String url = "https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/images/115334main_image_feature_329_ys_full.jpg";
+        PictureLoader loader = new PictureLoader();
+        loader.execute(new String[] {url});
+
         findViewsById();
 
         getRatingBar.setOnRatingBarChangeListener(this);
@@ -126,6 +144,64 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
         updateInstallationRating();
 
     }
+
+    private class PictureLoader extends AsyncTask<String, Void, Bitmap> {
+        @Override
+        protected Bitmap doInBackground(String... urls) {
+            Bitmap map = null;
+            for (String url : urls) {
+                map = downloadImage(url);
+            }
+            return map;
+        }
+
+        // Sets the Bitmap returned by doInBackground
+        @Override
+        protected void onPostExecute(Bitmap result) {
+            imageView.setImageBitmap(result);
+            System.out.println("finished");
+        }
+
+        // Creates Bitmap from InputStream and returns it
+        private Bitmap downloadImage(String url) {
+            Bitmap bitmap = null;
+            InputStream stream = null;
+            BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+            bmOptions.inSampleSize = 1;
+
+            try {
+                stream = getHttpConnection(url);
+                bitmap = BitmapFactory.
+                        decodeStream(stream, null, bmOptions);
+                stream.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            return bitmap;
+        }
+
+        // Makes HttpURLConnection and returns InputStream
+        private InputStream getHttpConnection(String urlString)
+                throws IOException {
+            InputStream stream = null;
+            URL url = new URL(urlString);
+            URLConnection connection = url.openConnection();
+
+            try {
+                HttpsURLConnection httpConnection = (HttpsURLConnection) connection;
+                httpConnection.setRequestMethod("GET");
+                httpConnection.connect();
+
+                if (httpConnection.getResponseCode() == HttpsURLConnection.HTTP_OK) {
+                    stream = httpConnection.getInputStream();
+                }
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+            return stream;
+        }
+    }
+
 
     private void findViewsById() {
         getRatingBar = (RatingBar) findViewById(R.id.getRating);
