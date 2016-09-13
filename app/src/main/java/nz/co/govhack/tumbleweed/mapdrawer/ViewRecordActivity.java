@@ -71,7 +71,8 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                registerFavorite();
+                Snackbar.make(view, "This playground has been added to your favorites", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -321,6 +322,32 @@ public class ViewRecordActivity extends AppCompatActivity implements RatingBar.O
             public void onResponse(Call call, Response response) throws IOException {
                 updateGlobalRating();
                 Log.i("****", "Rating has been recorded");
+                Log.i("****", "The Http response is: " + response.toString());
+            }
+        });
+    }
+
+    private void registerFavorite() {
+        OkHttpClient client = new OkHttpClient();
+        String url = getResources().getString(R.string.register_favorite_url);
+        FormBody formBody = new FormBody.Builder()
+                .add("installation_id", installationId)
+                .add("record_id", recordId)
+                .add("playground_name", playgroundName)
+                .build();
+        Request request = new Request.Builder()
+                .url(url)
+                .post(formBody)
+                .build();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.i("****", "Failed to register favorite", e);
+            }
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                updateGlobalRating();
+                Log.i("****", "Favorite has been registered");
                 Log.i("****", "The Http response is: " + response.toString());
             }
         });
