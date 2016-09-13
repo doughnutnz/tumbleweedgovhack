@@ -82,6 +82,34 @@ class StoreClick(webapp2.RequestHandler):
             latitude=float(latitude),
             longitude=float(longitude)).put()
       self.response.status = 200
+
+class Favorites(ndb.Model):
+    """A model to store the list of favorite playgrounds per installation_id"""
+    installation_id = ndb.StringProperty()
+    record_id_list = ndb.IntegerProperty(repeated=True)
+    playground_name_list = ndb.StringProperty(repeated=True)
+                                           
+class RegisterFavorite(webapp2.RequestHandler):
+    """register a playground as a favorite"""
+    def post(self):
+      installation_id = self.request.POST.get('installation_id')
+      record_id = self.request.POST.get('record_id')
+      playground_name = self.request.POST.get('playground_name')
+      logging.debug(self.request.POST)
+      logging.debug(installation_id)
+      logging.debug(record_id)
+      logging.debug(playground_name)
+      favorites = Favorites.query(Favorites.installation_id == installation_id).fetch(1)
+      if len(favorites) > 0 :
+        favorites.record_id_list.append(int(record_id))
+        favorites.playground_name_list.append(playground_name)
+        favorites.put()
+      else:
+        Favorites(installation_id=installation_id, 
+                  record_id_list=[int(record_id)], 
+                  playground_name_list=[playground_name]).put()
+      self.response.status = 200   
       
 APPLICATION = webapp2.WSGIApplication([('/store_click', StoreClick),
-                                       ('/rating', RatingEndpoint)], debug=True)
+                                       ('/rating', RatingEndpoint),
+                                       ('/register_favorite', RegisterFavorite)], debug=True)
