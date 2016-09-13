@@ -13,28 +13,70 @@ class Rating(ndb.Model):
     mark = ndb.IntegerProperty()
     created_at = ndb.DateTimeProperty(auto_now_add=True)
 
+class Playground(ndb.Model):
+    """Model of a playground"""
+    name = ndb.StringProperty()
+    nb_clicks = ndb.IntegerProperty()
+    nb_ratings = ndb.IntegerProperty()
+    rating = ndb.FloatProperty()
+
 class RatingEndpoint(webapp2.RequestHandler):
     """Store a rating"""
+    def _update_playground_rating(self, playground_name, rating):
+        playground = Playground.query(Playground.name == playground_name).fetch(1)
+
+        if len(playground) > 0:
+            playground = playground[0]
+            logging.debug(playground)
+            playground.rating = (playground.rating * playground.nb_ratings + rating) / (playground.nb_ratings + 1)
+            playground.nb_ratings += 1
+        else:
+            playground = Playground(
+                name = playground_name,
+                nb_clicks = 1,
+                nb_ratings = 1,
+                rating = rating
+                )
+
+        playground.put()
+
+    def _update_user_rating(self, installation_id, record_id, playground_name, mark):
+        rating = Rating.query(
+            ndb.AND(
+                Rating.installation_id == installation_id, 
+                Rating.playground_name == playground_name)
+            ).fetch(1)
+
+        # load existing record or create a new one
+        if len(rating) > 0 :
+            rating = rating[0]
+            logging.debug(rating)
+            rating.mark = int(mark)
+            rating.record_id = int(record_id)
+            rating.put()
+        else:
+            rating = Rating(
+                installation_id=installation_id, 
+                record_id=int(record_id), 
+                playground_name=playground_name,
+                mark=int(mark))
+
+        # store record
+        rating.put()        
+
     def post(self):
-      installation_id = self.request.POST.get('installation_id')
-      record_id = self.request.POST.get('record_id')
-      playground_name = self.request.POST.get('playground_name')
-      mark = self.request.POST.get('mark')
-      rating = Rating.query(ndb.AND(Rating.installation_id == installation_id, 
-                                    Rating.playground_name == playground_name)
-                            ).fetch(1)
-      if len(rating) > 0 :
-        rating = rating[0]
-        logging.debug(rating)
-        rating.mark = int(mark)
-        rating.record_id = int(record_id)
-        rating.put()
-      else:
-        Rating(installation_id=installation_id, 
-               record_id=int(record_id), 
-               playground_name=playground_name,
-               mark=int(mark)).put()
-      self.response.status = 200
+        installation_id = self.request.POST.get('installation_id')
+        record_id = self.request.POST.get('record_id')
+        playground_name = self.request.POST.get('playground_name')
+        mark = self.request.POST.get('mark')
+
+        # add or update user rating of the playground
+        self._update_user_rating(installation_id, record_id, playground_name, mark)
+
+        # add rating to the playground
+        self._update_playground_rating(playground_name, int(mark))
+
+        self.response.status = 200
     
     """Get a rating"""
     def get(self):
@@ -109,7 +151,8 @@ class RegisterFavorite(webapp2.RequestHandler):
                   record_id_list=[int(record_id)], 
                   playground_name_list=[playground_name]).put()
       self.response.status = 200   
-      
+
+
 APPLICATION = webapp2.WSGIApplication([('/store_click', StoreClick),
                                        ('/rating', RatingEndpoint),
                                        ('/register_favorite', RegisterFavorite)], debug=True)
