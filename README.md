@@ -41,8 +41,8 @@ Senior Data Scientist at Qrious
 Big Data Engineer at Qrious Limited
 * [Gary Bartlett](https://nz.linkedin.com/in/garybartlettprodsol)
 Dramatic Improvement In Organisational Performance
-* [Doug Hunt](https://nz.linkedin.com/in/doughunt)
-Creating technology that enables athletes to train more effectively
+* [Dr. Doug Hunt](https://nz.linkedin.com/in/doughunt)
+Director at Codoc Software Services Ltd; Creating technology that enables athletes to train more effectively
 
 # Inspiration
 * [Family Places App](https://play.google.com/store/apps/details?id=nz.co.juliusspencer.android.mixmash) in Google Play Store
